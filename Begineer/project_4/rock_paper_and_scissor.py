@@ -27,4 +27,3 @@ else:
         print("You Win! Computer Loose.")
     elif user_choice < computer_choice:
         print("You Loose! Computer Wins.")
-
