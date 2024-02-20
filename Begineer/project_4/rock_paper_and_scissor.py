@@ -19,7 +19,9 @@ computer_choice = random.randint(0, 2)
 
 print(f"Computer chooses: {game_keyword[computer_choice]} \n {game_images[computer_choice]}")
 
-if user_choice == computer_choice:
+if user_choice >= 3 or user_choice < 0:
+    print("You didn't choice the right option. Try again.")
+elif user_choice == computer_choice:
     print("Match Draw.")
 elif user_choice == 0 and computer_choice == 1:
     print("You Lose! Computer Wins.")
