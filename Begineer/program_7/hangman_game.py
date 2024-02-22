@@ -7,8 +7,6 @@ length = len(chosen_word)
 
 end_of_game = False
 
-# print(chosen_word)
-
 lives = 6
 
 display = []

@@ -4,4 +4,4 @@ words_list = ('ant baboon badger bat bear beaver camel cat clam cobra cougar '
               'otter owl panda parrot pigeon python rabbit ram rat raven '
               'rhino salmon seal shark sheep skunk sloth snake spider '
               'stork swan tiger toad trout turkey turtle weasel whale wolf '
-              'wombat zebra ').split()
+              'wombat zebra cobra').split()
